@@ -12,10 +12,12 @@ const textLinks: { label: string; href: string }[] = [
 
 /** Icon links to social media — edit these with links to your profiles! */
 const iconLinks: { label: string; href: string; icon: keyof typeof iconPaths }[] = [
-	{ label: 'Twitter', href: 'https://twitter.com/garrettw', icon: 'twitter-logo' },
 	{ label: 'GitHub', href: 'https://github.com/garrettw', icon: 'github-logo' },
-	{ label: 'LinkedIn', href: 'https://www.linkedin.com/in/garrettw', icon: 'linkedin-logo' },
-	{ label: 'My real website', href: 'https://garrettw.net/', icon: 'rocket-launch' },
+	{ label: 'Reddit', href: 'https://reddit.com/u/garrett_w87', icon: 'reddit-logo' },
+	{ label: 'LinkedIn', href: 'https://www.linkedin.com/in/garrettw', icon: 'linkedin-logo-outline' },
+	{ label: 'Bluesky', href: 'https://bsky.app/profile/garrettw.net', icon: 'butterfly' },
+	{ label: 'Twitter', href: 'https://twitter.com/garrettw', icon: 'twitter-logo' },
+	{ label: 'My real website', href: 'https://garrettw.net/', icon: 'house-line' },
 ];
 
 /** Test if a link is pointing to the current page. */
@@ -30,7 +32,7 @@ const isCurrentPage = (href: string) => {
 <nav>
 	<div class="menu-header">
 		<a href="/" class="site-title">
-			<Icon icon="terminal-window" color="var(--accent-regular)" size="1.6em" gradient />
+			<Icon icon="pencil-line" color="var(--accent-regular)" size="1.6em" gradient />
 			GarrettW@GitHub
 		</a>
 		<menu-button>
