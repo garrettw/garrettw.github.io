@@ -29,6 +29,7 @@
 		"vscode": {
 			"extensions": [
 				"astro-build.astro-vscode",
+				"editorconfig.editorconfig",
 				"github.vscode-github-actions",
 				"christian-kohler.npm-intellisense",
                 "christian-kohler.path-intellisense",
