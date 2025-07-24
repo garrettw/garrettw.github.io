@@ -122,11 +122,7 @@
 		0px 16px 16px rgba(255, 255, 255, 0.1), 0px 4px 9px rgba(255, 255, 255, 0.12);
 }
 
-html,
-body {
-	min-height: 100%;
-	overflow-x: hidden;
-}
+@import 'vitals.css';
 
 body {
 	background-color: var(--gray-999);
@@ -134,6 +130,7 @@ body {
 	font-family: var(--font-body);
 	-webkit-font-smoothing: antialiased;
 	line-height: 1.5;
+	margin: 0;
 }
 
 *,
@@ -141,11 +138,6 @@ body {
 *::before {
 	box-sizing: border-box;
 	margin: 0;
-}
-
-img {
-	max-width: 100%;
-	height: auto;
 }
 
 a {

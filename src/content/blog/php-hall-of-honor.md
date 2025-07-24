@@ -13,8 +13,6 @@ My goal with this list is to inform a theoretical PHP newbie of whose public wor
 
 ---
 
-## 🏆 Most Influential People in PHP History (Community Curated)
-
 This list honors individuals who have had the most significant and lasting impact on the PHP ecosystem. Influence is measured by originality, scale, and the enduring relevance of their contributions.
 
 ### Tier 1 — Foundational Architects of PHP
