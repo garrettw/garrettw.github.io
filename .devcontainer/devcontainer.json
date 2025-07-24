@@ -33,7 +33,9 @@
 				"github.vscode-github-actions",
 				"christian-kohler.npm-intellisense",
                 "christian-kohler.path-intellisense",
-				"esbenp.prettier-vscode"
+				"esbenp.prettier-vscode",
+				"zaaack.markdown-editor",
+				"unifiedjs.vscode-mdx"
 			]
 		}
 	},
