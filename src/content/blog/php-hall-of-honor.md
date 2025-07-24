@@ -33,13 +33,13 @@ Primary developers and maintainers of PHP internals and language design in the m
 - **Ilija Tovilo** — Current lead PHP core contributor; instrumental in PHP 8.x+ evolution.
 - **Sara Golemon** — Longtime core contributor and release manager; key in Unicode and PECL work.
 - **Anatol Belski** — Major contributor to PHP internals and release management.
-- **Derick Rethans** — Developer of Xdebug; active in internals, timezones, and date/time features.
+- **Derick Rethans** — Creator of Xdebug and PHP's date extension; core developer.
 
 ### Tier 3 — Ecosystem Catalysts & Infrastructure Shapers
 
 These people didn’t just build tools — they launched ecosystems and changed how PHP is used.
 
-- **Jordi Boggiano** — Co-creator of Composer; maintainer of Packagist, Monolog, and open-source infrastructure.
+- **Jordi Boggiano ("seldaek")** — Co-creator of Composer; maintainer of Packagist, Monolog, and open-source infrastructure.
 - **Nils Adermann** — Co-creator of Composer and Packagist.
 - **Taylor Otwell** — Creator of Laravel, one of the most popular PHP frameworks ever.
 - **Fabien Potencier** — Creator of Symfony and major contributor to PSR standards and components.
@@ -50,9 +50,10 @@ These people didn’t just build tools — they launched ecosystems and changed 
 
 These individuals created foundational tools, educational resources, or packages used across the PHP world.
 
+- **Nuno Maduro** — Creator of Pest, Larastan, PHP Insights, Laravel Collision, and Pint; Laravel contributor, speaker, YouTuber, Twitch code streamer, organizer of PHP Portugal.
 - **Anthony Ferrara** — Architect of PHP’s password hashing API; major voice in PHP security.
 - **Jeffrey Way** — Founder of Laracasts; shaped an entire generation of Laravel developers.
-- **Ondřej Mirtes** — Creator of PHPStan; elevated static analysis in PHP development.
+- **Ondřej Mirtes** — Creator of PHPStan; elevated static analysis in PHP development. Also maintains the definitive 3rd-party Ubuntu PPA repo of PHP.
 - **Sjon Hortensius** — Creator of 3v4l.org; a key diagnostic and comparison tool.
 - **Brent Roose** — Creator of Stitcher.io, newsletter, and educational content advocating modern PHP.
 - **Adam Wathan** — Early influencer in the Laravel ecosystem through TDD advocacy, education, and foundational packages.
@@ -73,10 +74,15 @@ These developers built major libraries, frameworks, standards, and tools that pu
 
 #### 🌀 Async Trailblazers
 
-- **Daniel Lowrey ("rdlowrey")** — Creator of libevent-based libraries; early async PHP advocate.
-- **Aaron Piotrowski** — Creator of Icicle, an early async framework.
-- **Niklas Keller ("kelunik")** — Creator of ReactPHP HTTP components.
-- **Bob Weinand ("bwoebi")** — ReactPHP and internals contributor.
+- **Aaron Piotrowski ("trowski")** — Creator of Icicle, an early async framework, which evolved into AmPHP. Also contributes to Revolt.
+- **Niklas Keller ("kelunik")** - Contributor to AmPHP and Revolt.
+- **Daniel Lowrey ("rdlowrey")** — Creator of libevent-based libraries; early async PHP advocate and AmPHP contributor.
+- **Bob Weinand ("bwoebi")** - Contributes to AmPHP and core development.
+- **Markus Staab ("staabm")** - Contributes to AmPHP, PHPStan, Rector, and PHPUnit.
+- **Saif Eddin Gmati (azjezz)** - Revolt, Tempest Framework, and PHP Standard Library.
+- **Cees-Jan Kiewiet ("WyriHaximus")** - ReactPHP
+- **Christian Lück ("clue")** - ReactPHP
+  
 
 #### 🧠 Educators and Thinkers
 
@@ -102,8 +108,3 @@ People whose impact was significant but narrower in scope, regional, or more com
 - **Jakub Zalas** — Organizer of PHPers Summit and contributor to Symfony and testing culture in PHP.
 - **Stefan Koopmanschap** — Contributor to Symfony and co-organizer of Dutch PHP Conference; active in education and community.
 - **Ben Ramsey** — PSR contributor and UUID libraries maintainer; involved in community standards.
-
-Lastly, there are a few more people that my AI friends omitted but I need to add back in.
-
-- Nuno Maduro (Laravel, Pest)
-- The rest of the Async Trailblazers
