@@ -13,68 +13,128 @@ My goal with this list is to inform a theoretical PHP newbie of whose public wor
 
 ---
 
-### Tier 1: The Founders
-_Created the language and its core engine_
+## 🏆 Most Influential People in PHP History (Community Curated)
 
-1. **Rasmus Lerdorf** -- Created the original **PHP/FI** (Personal Home Page/Forms Interpreter) in 1994-1995, establishing the language's core pragmatic ethos.
-2. **Andrei “Zeev” Suraski** & **Andi Gutmans** -- Co-created the **Zend Engine**, the high-performance core of PHP 4 and all subsequent versions; Co-founded Zend Technologies
+This list honors individuals who have had the most significant and lasting impact on the PHP ecosystem. Influence is measured by originality, scale, and the enduring relevance of their contributions.
 
-### Tier 2: The Ecosystem Definers
-_Created the tools and frameworks that define modern development_
+### Tier 1 — Foundational Architects of PHP
 
-3. **Fabien Potencier** -- Creator of the **Symfony** framework and its ecosystem of decoupled, reusable components; Creator of the Twig templating engine
-4. **Taylor Otwell** -- Creator of the **Laravel** framework and its extensive ecosystem, with a focus on developer experience (DX) and rapid application development; picked up the torch from CodeIgniter
-5. **Nils Adermann** & **Jordi Boggiano** -- Co-creators of **Composer**, the dependency manager for PHP, and the **Packagist** repository, which revolutionized code sharing in the ecosystem; Adermann is a founding board member of The PHP Foundation, and Boggiano also created Monolog
+These individuals fundamentally shaped PHP into what it is today at the language level.
 
-### Tier 3: The Principle Definers
-_Provided the intellectual framework for professionalization_
+- Rasmus Lerdorf — Creator of PHP, steward of its early growth.
 
-6. **Martin Fowler** -- Seminal books: _Refactoring_, _Patterns of Enterprise Application Architecture_; Popularized concepts like Dependency Injection and Microservices.
-7. **Robert C. Martin ("Uncle Bob")** -- SOLID Principles; Seminal books: _Clean Code_, _Clean Architecture_; Champion of Software Craftsmanship
+- Andi Gutmans — Co-author of PHP 3 and Zend Engine; co-founder of Zend Technologies.
 
-### Tier 4: The Modern Language Shaper
-_Architected the renaissance of the core language_
+- Zeev Suraski — Co-author of PHP 3 and Zend Engine; key force behind PHP 4 and PHP 5.
 
-8. **Nikita Popov** ("nikic") -- Prolific core contributor; Author of numerous major RFCs for PHP 7.x and 8.x (Typed Properties, Arrow Functions, Union Types, JIT, etc.), among others; Author of influential libraries (FastRoute, PHP-Parser, and more)
+- Dmitry Stogov — Architect of major performance optimizations (PHPNG, Opcache); core developer since PHP 5.
 
-### Tier 5: The Essential Toolmakers
-_Created indispensable tools for professional development_
+- Nikita Popov — Led modern transformation of PHP (scalar types, attributes, JIT); core contributor 2011–2022.
 
-9. **Sebastian Bergmann** -- Creator of **PHPUnit**, the de facto standard framework for automated testing in PHP, which professionalized code quality practices; founding board member of The PHP Foundation
-10. **Derick Rethans** -- Creator of **Xdebug**, the essential debugging and profiling tool for PHP, as well as PHP's core date/time extension; Host of the PHP Internals News podcast; PHP core contributor and release manager; Author of _php|architect's Guide to Date and Time Programming_
+### Tier 2 — Core Language Architects
 
-### Tier 6: The Paradigm Shifters & Specialists
-_Pushing boundaries in standards and advanced domains_
+Primary developers and maintainers of PHP internals and language design in the modern era.
 
-12. **Ondřej Mirtes** -- Ubuntu PPAs for PHP, PHPStan
-13. **Larry Garfield ("Crell")** -- Leader in the modernization of Drupal 8; PHP-FIG Core Committee member (PSRs 6, 13, 14); Author of _Thinking Functionally in PHP_; creator of Serde
-14. **Matthias Noback** -- PHP blogger and author of _Principles of PHP Package Design_, _Advanced Web Application Architecture_, and _Object Design Style Guide_
-15. **Paul M. Jones** -- PHP-FIG (PSRs 4 and 7), ADR pattern, Solar framework, Atlas ORM, PHP blogger and speaker
-16. **Marco Pivetta ("Ocramius")** -- Doctrine, ProxyManager, Roave tools
-17. **Frank de Jonge** -- PHP blogger and creator of Flysystem and EventSauce
-18. **Ross Tuck** -- Writer and speaker on DDD and CQRS,  creator of Tactician, contributor to Symfony and Doctrine
-19. The Asynchronous Pioneers
-  - **Cees-Jan Kiewiet ("WyriHaximus")** -- ReactPHP
-  - **Kévin Dunglas** -- Symfony, API Platform, FrankenPHP
-  - **Han Tianfeng** -- Swoole
-  - **Anton Titov** -- Roadrunner
-  - **Daniel Lowrey ("rdlowrey")** -- Auryn, AmPHP
-  - **Aaron Piotrowski** -- AmPHP
-  - **Niklas Keller ("kelunik")** -- AmPHP
-  - **Bob Weinand ("bwoebi")** -- AmPHP
-  - **Huang Wenzhui** -- Hyperf
+- Ilija Tovilo — Current lead PHP core contributor; instrumental in PHP 8.x+ evolution.
 
-### Tier 7: The Community & Niche Influencers
-_Impactful within large sub-communities or through specific contributions_
+- Sara Golemon — Longtime core contributor and release manager; key in Unicode and PECL work.
 
-20. **Benjamin Eberlei** -- Podcaster and Doctrine lead
-28. **Dries Vints** -- Laravel contributor
-21. **Dries Buytaert** -- Drupal
-22. **Lukas Kahwe Smith** -- Senior PHP release manager, community organizer, contributor to Symfony and Doctrine, PHP-FIG member
-23. **Michelangelo van Dam** -- Speaker and organizer; co-founded PHPBenelux
-24. **Tom Butler** -- University lecturer and PHP blogger
-25. **Sjon Hortensius** -- Created 3v4l.org in 2012
-26. **Brent Roose** -- Stitcher.io, PHP newsletter, YouTube
-27. **Paweł Jędrzejewski** -- Creator of Sylius
-28. **Miško Hevery** -- Prolific writing and speaking on software design, particularly concerning testability and dependency injection
-29. **Yegor Bugayenko** -- Author of _Elegant Objects_, a book that advocates for a "pure" and highly disciplined form of object-oriented programming
+- Anatol Belski — Major contributor to PHP internals and release management.
+
+- Derick Rethans — Developer of Xdebug; active in internals, timezones, and date/time features.
+
+### Tier 3 — Ecosystem Catalysts & Infrastructure Shapers
+
+These people didn’t just build tools — they launched ecosystems and changed how PHP is used.
+
+- Jordi Boggiano — Co-creator of Composer; maintainer of Packagist, Monolog, and open-source infrastructure.
+
+- Nils Adermann — Co-creator of Composer and Packagist.
+
+- Taylor Otwell — Creator of Laravel, one of the most popular PHP frameworks ever.
+
+- Fabien Potencier — Creator of Symfony and major contributor to PSR standards and components.
+
+- Sebastian Bergmann — Creator of PHPUnit; vital to PHP testing culture and tooling.
+
+- Matthew Weier O’Phinney — Architect of Laminas/Zend Framework; pioneer of PSR collaboration.
+
+### Tier 4 — Core Toolmakers & Community Educators
+
+These individuals created foundational tools, educational resources, or packages used across the PHP world.
+
+- Anthony Ferrara — Architect of PHP’s password hashing API; major voice in PHP security.
+
+- Jeffrey Way — Founder of Laracasts; shaped an entire generation of Laravel developers.
+
+- Ondřej Mirtes — Creator of PHPStan; elevated static analysis in PHP development.
+
+- Sjon Hortensius — Creator of 3v4l.org; a key diagnostic and comparison tool.
+
+- Brent Roose — Creator of Stitcher.io, newsletter, and educational content advocating modern PHP.
+
+- Adam Wathan — Early influencer in the Laravel ecosystem through TDD advocacy, education, and foundational packages.
+
+- Frédéric Bouchery — Creator of Exakat, a static analysis engine.
+
+### Tier 5 — Framework, Tool, and Community Builders
+
+These developers built major libraries, frameworks, standards, and tools that pushed PHP forward.
+
+#### ⚙️ Library and Framework Authors
+
+- Frank de Jonge — Creator of Flysystem and EventSauce.
+
+- Benjamin Eberlei — Doctrine core developer; contributor to Symfony and PSRs.
+
+- Marco Pivetta ("Ocramius") — Doctrine contributor and advanced PHP educator.
+
+- Tobias Schultze — Symfony core team; active in components and documentation.
+
+- Tobias Nyholm — Founder of HTTPlug, creator of PSR-18 HTTP client libraries.
+
+- Ignace Nyamagana Butera — Maintainer of PHPStan and Psalm.
+
+#### 🌀 Async Trailblazers
+
+- Daniel Lowrey ("rdlowrey") — Creator of libevent-based libraries; early async PHP advocate.
+
+- Aaron Piotrowski — Creator of Icicle, an early async framework.
+
+- Niklas Keller — Creator of ReactPHP HTTP components.
+
+- Bob Weinand ("Bwoebi") — ReactPHP and internals contributor.
+
+#### 🧠 Educators and Thinkers
+
+- Cal Evans — Longtime community builder, podcaster ("Voices of the ElePHPant"), and speaker. Helped shape the early online PHP community and inspired countless user groups.
+
+- Paul M. Jones — Architect of Aura; co-author of PSRs; influential blogger and educator.
+
+- Tom Butler ("TomBZombie") — Creator of Dice DI container and deep technical blog posts.
+
+- Chris Hartjes — "Grumpy Programmer"; long-time advocate for testing and best practices.
+
+- Eli White — Organizer, speaker, and early thought leader in PHP community events.
+
+#### 🧠 Foundational Thinkers (External to PHP)
+
+These individuals weren’t primarily PHP developers, but their ideas or tools deeply influenced PHP’s direction.
+
+- Martin Fowler — Influenced architecture patterns like Dependency Injection, which shaped frameworks like Laravel and Symfony.
+
+- Robert C. Martin ("Uncle Bob") — Advocated clean code and SOLID principles, heavily adopted in PHP's OOP evolution.
+
+- Kent Beck — Originator of TDD; key influence on PHPUnit and testing practices in PHP.
+
+#### ⚖️ Honorable Mentions (Niche, Local, or Unsung Heroes)
+
+People whose impact was significant but narrower in scope, regional, or more community-focused.
+
+- Pascal Martin — French blogger and educator, known for long-form technical articles and analysis of PHP releases.
+
+- Jakub Zalas — Organizer of PHPers Summit and contributor to Symfony and testing culture in PHP.
+
+- Stefan Koopmanschap — Contributor to Symfony and co-organizer of Dutch PHP Conference; active in education and community.
+
+- Ben Ramsey — PSR contributor and UUID libraries maintainer; involved in community standards.
