@@ -15,7 +15,8 @@ const posts = (await getCollection('blog')).sort(
         <section>
             <ul>
                 {
-                    posts.map((post) => (
+                    posts.filter((post) => post.data.pubDate && post.data.pubDate < new Date())
+                    .map((post) => (
                         <li>
                             <a href={`/blog/${post.id}/`}>
                                 <h4 class="title">{post.data.title}</h4>

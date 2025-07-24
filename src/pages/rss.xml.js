@@ -1,6 +1,6 @@
 // see https://docs.astro.build/en/recipes/rss/
 
-import rss, { pagesGlobToRssItems } from '@astrojs/rss';
+import rss from '@astrojs/rss';
 import { getCollection } from 'astro:content';
 
 export async function GET(context) {
