@@ -1,8 +1,8 @@
 ---
-title: List of PHP Influencers
+title: PHP Hall of Honor
 pubDate: 2025-07-23 00:00:00
 description: |
-  I used ChatGPT and Google Gemini along with my own knowledge to compile a list of the most influential members of the PHP community.
+  I used ChatGPT and Google Gemini along with my own knowledge to compile a list of the most influential members of the PHP community of all time.
 categories:
   - PHP
 ---
@@ -138,3 +138,5 @@ People whose impact was significant but narrower in scope, regional, or more com
 - Stefan Koopmanschap — Contributor to Symfony and co-organizer of Dutch PHP Conference; active in education and community.
 
 - Ben Ramsey — PSR contributor and UUID libraries maintainer; involved in community standards.
+
+add: nuno maduro
