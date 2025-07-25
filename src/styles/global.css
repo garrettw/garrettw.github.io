@@ -122,8 +122,6 @@
 		0px 16px 16px rgba(255, 255, 255, 0.1), 0px 4px 9px rgba(255, 255, 255, 0.12);
 }
 
-@import 'vitals.css';
-
 body {
 	background-color: var(--gray-999);
 	color: var(--gray-200);

@@ -280,7 +280,7 @@ li) {
 
 :where(svg) {
   overflow: hidden;
-  fill: currentColor;
+  /* fill: currentColor; this is breaking something */
 }
 :where(svg):root {
   overflow: visible;
