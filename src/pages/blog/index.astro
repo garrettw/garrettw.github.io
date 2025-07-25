@@ -30,4 +30,16 @@ const posts = (await getCollection('blog')).sort(
             </ul>
         </section>
     </main>
+    <style>
+        main {
+            padding: 0 2rem;
+        }
+        ul {
+            list-style: none;
+            text-align: center;
+        }
+        li {
+            margin-bottom: 1rem;
+        }
+    </style>
 </BaseLayout>
