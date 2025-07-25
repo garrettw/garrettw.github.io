@@ -59,46 +59,7 @@ These individuals created foundational tools, educational resources, or packages
 - **Brent Roose** — Creator of Stitcher.io, newsletter, and educational content advocating modern PHP.
 - **Adam Wathan** — Early influencer in the Laravel ecosystem through TDD advocacy, education, and foundational packages before creating Tailwind CSS.
 
-### Tier 5 — Framework, Tool, and Community Builders
-
-These developers built major libraries, frameworks, standards, and tools that pushed PHP forward.
-
-#### ⚙️ Library and Framework Authors
-
-- **Frank de Jonge** — Creator of Flysystem and EventSauce.
-- **Ross Tuck** — Creator of the influential Tactician command bus library; speaker on DDD and advanced architectural concepts.
-- **Benjamin Eberlei** — Doctrine core developer; contributor to Symfony and PSRs. Founder of Tideways.
-- **Marco Pivetta ("Ocramius")** — Doctrine contributor and advanced PHP educator. Creator of ProxyManager and Roave tools.
-- **Paweł Jędrzejewski** — Creator of Sylius, an influential open-source e-commerce framework built on Symfony.
-- **Tobias Schultze** — Symfony core team; active in components and documentation.
-- **Tobias Nyholm** — Founder of HTTPlug, editor of the PSR-18 HTTP Client standard, and creator of corresponding libraries.
-
-#### 🌀 Async Trailblazers
-
-- **Aaron Piotrowski ("trowski")** — Creator of Icicle, maintainer of AmPHP/Revolt, and co-author of the Fibers RFC.
-- **Niklas Keller ("kelunik")** - Contributor to AmPHP/Revolt and co-author of the Fibers RFC.
-- **Daniel Lowrey ("rdlowrey")** — Creator of Auryn and libevent-based libraries; early async PHP advocate and AmPHP contributor.
-- **Bob Weinand ("bwoebi")** - Contributes to AmPHP and core development.
-- **Saif Eddin Gmati ("azjezz")** - Revolt, Tempest Framework, Mago, and PHP Standard Library.
-- **Cees-Jan Kiewiet ("WyriHaximus")** - ReactPHP core contributor and one of the most prolific async package authors on Packagist.
-- **Christian Lück ("clue")** - ReactPHP core architect.
-- **Kévin Dunglas** — Creator of FrankenPHP, API Platform, and Mercure; Symfony core team member.
-- **Han Tianfeng** — Creator of Swoole.
-- **Anton Titov** — Creator of RoadRunner.
-- **Huang Wenzhui** — Creator of Hyperf, a high-performance coroutine framework built on Swoole.
-  
-
-#### 🧠 Educators and Thinkers
-
-- **Larry Garfield (“Crell”)** — Leader in Drupal 8's modernization, key PHP-FIG contributor (PSR-6, 13, 14), and author of _Thinking Functionally in PHP_.
-- **Matthias Noback** — Prolific author of essential books on software architecture like _Advanced Web Application Architecture_.
-- **Paul M. Jones** — Architect of Solar and Aura; co-author of PSRs (4 and 7); influential blogger and educator; creator/advocate of the Action-Domain-Responder pattern.
-- **Cal Evans** — Longtime community builder, podcaster ("Voices of the ElePHPant"), and speaker. Helped shape the early online PHP community and inspired countless user groups.
-- **Tom Butler** — Creator of Dice DI container and Transphporm templating engine; university lecturer and author of deep, often contrarian, technical blog posts.
-- **Chris Hartjes** — "Grumpy Programmer"; long-time advocate for testing and best practices.
-- **Eli White** — Organizer, speaker, and early thought leader in PHP community events with php[architect].
-
-#### 🧠 Foundational Thinkers (External to PHP)
+#### - Foundational Thinkers (External to PHP)
 
 These individuals weren’t primarily PHP developers, but their ideas or tools deeply influenced PHP’s direction.
 
@@ -108,7 +69,45 @@ These individuals weren’t primarily PHP developers, but their ideas or tools d
 - **Miško Hevery** — Creator of AngularJS; his talks on testability and dependency injection were highly influential in the PHP community's move away from global state and singletons.
 - **Yegor Bugayenko** — Author of _Elegant Objects_, a provocative book that challenges common OOP practices and has sparked important architectural debates.
 
-#### ⚖️ Honorable Mentions (Niche, Local, or Unsung Heroes)
+### Tier 5 — Framework, Tool, and Community Builders
+
+These developers built major libraries, frameworks, standards, and tools that pushed PHP forward.
+
+- **Larry Garfield (“Crell”)** — Leader in Drupal 8's modernization, key PHP-FIG contributor (PSR-6, 13, 14), and author of _Thinking Functionally in PHP_.
+- **Frank de Jonge** — Creator of Flysystem and EventSauce.
+- **Ross Tuck** — Creator of the influential Tactician command bus library; speaker on DDD and advanced architectural concepts.
+- **Benjamin Eberlei** — Doctrine core developer; contributor to Symfony and PSRs. Founder of Tideways.
+- **Marco Pivetta ("Ocramius")** — Doctrine contributor and advanced PHP educator. Creator of ProxyManager and Roave tools.
+- **Paweł Jędrzejewski** — Creator of Sylius, an influential open-source e-commerce framework built on Symfony.
+- **Tobias Schultze** — Symfony core team; active in components and documentation.
+- **Tobias Nyholm** — Founder of HTTPlug, editor of the PSR-18 HTTP Client standard, and creator of corresponding libraries.
+- **Kévin Dunglas** — Creator of API Platform and Mercure; Symfony core team member.
+
+#### - Async Trailblazers
+
+- **Aaron Piotrowski ("trowski")** — Creator of Icicle, maintainer of AmPHP/Revolt, and co-author of the Fibers RFC.
+- **Niklas Keller ("kelunik")** - Contributor to AmPHP/Revolt and co-author of the Fibers RFC.
+- **Daniel Lowrey ("rdlowrey")** — Creator of Auryn and libevent-based libraries; early async PHP advocate and AmPHP contributor.
+- **Bob Weinand ("bwoebi")** - Contributes to AmPHP and core development.
+- **Saif Eddin Gmati ("azjezz")** - Revolt, Tempest Framework, Mago, and PHP Standard Library.
+- **Cees-Jan Kiewiet ("WyriHaximus")** - ReactPHP core contributor and one of the most prolific async package authors on Packagist.
+- **Christian Lück ("clue")** - ReactPHP core architect.
+- **Kévin Dunglas** — Creator of FrankenPHP.
+- **Han Tianfeng** — Creator of Swoole.
+- **Anton Titov** — Creator of RoadRunner.
+- **Huang Wenzhui** — Creator of Hyperf, a high-performance coroutine framework built on Swoole.
+  
+
+### Tier 6 — Educators and Thinkers
+
+- **Matthias Noback** — Prolific author of essential books on software architecture like _Advanced Web Application Architecture_.
+- **Paul M. Jones** — Architect of Solar and Aura; co-author of PSRs (4 and 7); influential blogger and educator; creator/advocate of the Action-Domain-Responder pattern.
+- **Cal Evans** — Longtime community builder, podcaster ("Voices of the ElePHPant"), and speaker. Helped shape the early online PHP community and inspired countless user groups.
+- **Tom Butler** — Creator of Dice DI container and Transphporm templating engine; university lecturer and author of deep, often contrarian, technical blog posts.
+- **Chris Hartjes** — "Grumpy Programmer"; long-time advocate for testing and best practices.
+- **Eli White** — Organizer, speaker, and early thought leader in PHP community events with php[architect].
+
+### Tier 7 — Honorable Mentions (Niche, Local, or Unsung Heroes)
 
 People whose impact was significant but narrower in scope, regional, or more community-focused.
 
