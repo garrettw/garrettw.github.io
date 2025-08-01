@@ -1,5 +1,5 @@
 ---
-title: Soliciting Community Input for Upcoming Series: PHP Hall of Honor
+title: 'Soliciting Community Input for Upcoming Series: PHP Hall of Honor'
 pubDate: 2025-08-01 14:44:00
 description: |
   I'll be spotlighting members of the PHP community that have been influential over the years.
