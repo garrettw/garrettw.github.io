@@ -1,6 +1,6 @@
 ---
 title: PHP Hall of Honor
-pubDate: 2025-07-23 00:00:00
+pubDate: 2025-08-23 00:00:00
 description: |
   I used ChatGPT and Google Gemini along with my own knowledge to compile a list of the most influential members of the PHP community of all time.
 categories:
@@ -119,3 +119,6 @@ People whose impact was significant but narrower in scope, regional, or more com
 - **Stefan Koopmanschap** — Contributor to Symfony and co-organizer of Dutch PHP Conference; active in education and community.
 - **Ben Ramsey** — PSR contributor and UUID libraries maintainer; involved in community standards.
 - **Markus Staab (“staabm”)** - Prolific contributor to static analysis and quality assurance tools including PHPStan, Rector, and PHPUnit.
+
+add: gina banyard (girgias), Christoph M. Becker (cmb), Joe Watkins (krakjoe), Dan Ackroyd (danack) 
+Peter Cowburn (salathe), Chris Wright is another, daverandom, r11 room owners https://chat.stackoverflow.com/rooms/info/11/, Nicolas Grekas
