@@ -23,6 +23,9 @@ const posts = (await getCollection('blog')).sort(
                                 <p class="date">
                                     <FormattedDate date={post.data.pubDate || new Date()} />
                                 </p>
+                                <p class="description">
+                                    {post.data.description || 'No snippet available.'}
+                                </p>
                             </a>
                         </li>
                     ))
@@ -33,6 +36,7 @@ const posts = (await getCollection('blog')).sort(
     <style>
         main {
             padding: 0 2rem;
+            text-align: left;
         }
         ul {
             list-style: none;
@@ -40,6 +44,12 @@ const posts = (await getCollection('blog')).sort(
         }
         li {
             margin-bottom: 1rem;
+        }
+        a {
+            text-decoration: none;
+        }
+        .title {
+            text-decoration: underline;
         }
     </style>
 </BaseLayout>
