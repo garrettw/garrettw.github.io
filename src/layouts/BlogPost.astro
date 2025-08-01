@@ -50,14 +50,14 @@ const { title, description, pubDate, content } = Astro.props;
 			display: block;
 			margin: 0 auto;
 			border-radius: 12px;
-			box-shadow: var(--box-shadow);
+			box-shadow: var(--shadow-sm);
 		}
 		.prose {
-			width: 720px;
+			width: 800px;
 			max-width: calc(100% - 2em);
 			margin: auto;
 			padding: 1em;
-			color: rgb(var(--gray-dark));
+			color: var(--gray-100);
 		}
 		.title {
 			margin-bottom: 1em;
@@ -70,7 +70,7 @@ const { title, description, pubDate, content } = Astro.props;
 		}
 		.date {
 			margin-bottom: 0.5em;
-			color: rgb(var(--gray));
+			color: var(--gray-400);
 		}
 		.last-updated-on {
 			font-style: italic;

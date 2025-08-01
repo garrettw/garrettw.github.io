@@ -5,6 +5,7 @@ description: |
   I'll be spotlighting members of the PHP community that have been influential over the years.
 categories:
   - PHP
+status: published
 ---
 
 I am working on making a big list of the most influential members of the PHP community and their contributions in order to spotlight them in a series of blog posts here. The purpose of this is to provide a resource for people looking to learn more about the community or improve their skills by taking influence from the best sources possible.

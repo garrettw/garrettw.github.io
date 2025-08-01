@@ -1,13 +1,15 @@
 ---
 // Layout import — provides basic page elements: <head>, <nav>, <footer> etc.
 import BaseLayout from '../../layouts/BaseLayout.astro';
-import { getCollection } from 'astro:content';
+import { getPublishedBlogPosts } from '../../utils/blog';
 import FormattedDate from '../../components/FormattedDate.astro';
-import { Image } from 'astro:assets';
 
-const posts = (await getCollection('blog')).sort(
-	(a, b) => b.data.pubDate.valueOf() - a.data.pubDate.valueOf(),
-);
+const posts = (await getPublishedBlogPosts())
+    .sort((a, b) => {
+        const aDate = a.data.pubDate ? a.data.pubDate.valueOf() : 0;
+        const bDate = b.data.pubDate ? b.data.pubDate.valueOf() : 0;
+        return bDate - aDate;
+    });
 ---
 
 <BaseLayout>
@@ -15,8 +17,7 @@ const posts = (await getCollection('blog')).sort(
         <section>
             <ul>
                 {
-                    posts.filter((post) => post.data.pubDate && post.data.pubDate < new Date())
-                    .map((post) => (
+                    posts.map((post) => (
                         <li>
                             <a href={`/blog/${post.id}/`}>
                                 <h4 class="title">{post.data.title}</h4>
@@ -40,7 +41,6 @@ const posts = (await getCollection('blog')).sort(
         }
         ul {
             list-style: none;
-            text-align: center;
         }
         li {
             margin-bottom: 1rem;
@@ -50,6 +50,12 @@ const posts = (await getCollection('blog')).sort(
         }
         .title {
             text-decoration: underline;
+        }
+        .date {
+            color: var(--gray-400);
+        }
+        .description {
+            color: var(--gray-100);
         }
     </style>
 </BaseLayout>

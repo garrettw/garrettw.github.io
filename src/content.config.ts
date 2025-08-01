@@ -17,6 +17,9 @@ export const collections = {
 	}),
 	blog: defineCollection({
 		loader: glob({ base: './src/content/blog', pattern: '**/*.{md,mdx}', }),
-		schema: rssSchema,
+		schema: rssSchema.extend({
+			status: z.enum(['published', 'draft', 'archived']).default('draft'),
+			updatedDate: z.coerce.date().optional(),
+		}),
 	}),
 };
