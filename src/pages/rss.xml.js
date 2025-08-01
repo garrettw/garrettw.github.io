@@ -2,14 +2,15 @@
 
 import rss from '@astrojs/rss';
 import { getPublishedBlogPosts } from '../utils/blog';
+import { SITE_TITLE, SITE_DESCRIPTION } from '../consts';
 
 export async function GET(context) {
   const blog = await getPublishedBlogPosts();
   return rss({
     // `<title>` field in output xml
-    title: 'GarrettW@GitHub/blog',
+    title: SITE_TITLE + '/blog',
     // `<description>` field in output xml
-    description: '',
+    description: SITE_DESCRIPTION,
     // Pull in your project "site" from the endpoint context
     // https://docs.astro.build/en/reference/api-reference/#site
     site: context.site,
