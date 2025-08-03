@@ -16,7 +16,7 @@ These individuals fundamentally shaped PHP into what it is today at the language
 - **Andi Gutmans** — Co-author of PHP 3 and Zend Engine; co-founder of Zend Technologies.
 - **Zeev Suraski** — Co-author of PHP 3 and Zend Engine; key force behind PHP 4 and PHP 5.
 - **Dmitry Stogov** — Architect of major performance optimizations (PHPNG, Opcache) and the FFI extension; core developer since PHP 5.
-- **Nikita Popov** — Led modern transformation of PHP (scalar types, attributes, JIT, Fibers, etc.); core contributor 2011–2022.
+- **Nikita Popov ("nikic")** — Led modern transformation of PHP (scalar types, attributes, JIT, Fibers, etc.); core contributor 2011–2022.
 
 ### Tier 2 — Core Language Architects
 
@@ -24,8 +24,14 @@ Primary developers and maintainers of PHP internals and language design in the m
 
 - **Ilija Tovilo** — Current lead PHP core contributor; instrumental in PHP 8.x+ evolution.
 - **Sara Golemon** — Longtime core contributor and release manager (PHP 7.2, 8.0); key in Unicode and PECL work. Original author of `libssh2`.
+- **Andrei Zmievski** — Member of the Zend Engine team, co-creator of the Smarty templating engine, and contributor to core PHP APIs.
 - **Anatol Belski** — Major contributor to PHP internals, release management, and Windows support.
 - **Derick Rethans** — Creator of Xdebug and PHP's date extension; core developer. Host of the _PHP Internals News_ podcast.
+- **Gina Peter Banyard ("girgias")** — A current core developer funded by The PHP Foundation. She is a prolific author of RFCs that have shaped modern PHP (especially its type system) and is a maintainer of the PHP documentation.
+- **Christoph M. Becker ("cmb")** — A long-time, highly respected core contributor and release manager (PHP 7.3) who has co-authored numerous RFCs and is deeply involved in the day-to-day maintenance of the language.
+- **Joe Watkins ("krakjoe")** — A major figure in the core community, instrumental in establishing The PHP Foundation, and the author of groundbreaking extensions like parallel and pthreads that introduced new concurrency paradigms to PHP.
+- **Levi Morrison** — A long-time contributor who has authored or co-authored many of the most important RFCs in modern PHP, including those for arrow functions, return types, and nullable types.
+- **Remi Collet** — A critical figure for PHP's infrastructure, he maintains the essential RPM packages that make PHP available on Fedora, RHEL, and CentOS. He was also a PHP 7.2 Release Manager and is a prolific PECL package maintainer.
 
 ### Tier 3 — Ecosystem Catalysts & Infrastructure Shapers
 
@@ -38,6 +44,8 @@ These people didn’t just build tools — they launched ecosystems and changed 
 - **Sebastian Bergmann** — Creator of PHPUnit; vital to PHP testing culture and tooling.
 - **Dries Buytaert** — Creator of Drupal; his decision to rebuild Drupal on Symfony components integrated a massive community into the modern PHP ecosystem.
 - **Matthew Weier O’Phinney** — Architect of Laminas/Zend Framework; pioneer of PSR collaboration (notably PSR-7).
+- **Nicolas Grekas** — As the second-most prolific committer to the Symfony framework and a board member of The PHP Foundation, his influence on the architecture and performance of the components that power much of the PHP ecosystem is immense.
+- **Chris Wright ("DaveRandom")** — A prolific author of libraries, particularly in the asynchronous and networking space. His work on foundational libraries used by the async community makes him a key "Async Trailblazer".
 
 ### Tier 4 — Core Toolmakers & Community Educators
 
@@ -56,7 +64,7 @@ These individuals created foundational tools, educational resources, or packages
 These individuals weren’t primarily PHP developers, but their ideas or tools deeply influenced PHP’s direction.
 
 - **Martin Fowler** — Influenced architecture patterns like Dependency Injection, which shaped frameworks like Laravel and Symfony.
-- **Robert C. Martin ("Uncle Bob")** — Advocated clean code and SOLID principles, heavily adopted in PHP's OOP evolution.
+- **Robert C. Martin ("Uncle Bob")** — Advocated for "clean code" and SOLID principles, heavily adopted in PHP's OOP evolution.
 - **Kent Beck** — Originator of TDD; key influence on PHPUnit and testing practices in PHP.
 - **Miško Hevery** — Creator of AngularJS; his talks on testability and dependency injection were highly influential in the PHP community's move away from global state and singletons.
 - **Yegor Bugayenko** — Author of _Elegant Objects_, a provocative book that challenges common OOP practices and has sparked important architectural debates.
@@ -71,9 +79,11 @@ These developers built major libraries, frameworks, standards, and tools that pu
 - **Benjamin Eberlei** — Doctrine core developer; contributor to Symfony and PSRs. Founder of Tideways.
 - **Marco Pivetta ("Ocramius")** — Doctrine contributor and advanced PHP educator. Creator of ProxyManager and Roave tools.
 - **Paweł Jędrzejewski** — Creator of Sylius, an influential open-source e-commerce framework built on Symfony.
+- **Monte Ohrt** — Co-creator of the Smarty templating engine, a pioneering project for separating logic and presentation in PHP.
 - **Tobias Schultze** — Symfony core team; active in components and documentation.
 - **Tobias Nyholm** — Founder of HTTPlug, editor of the PSR-18 HTTP Client standard, and creator of corresponding libraries.
 - **Kévin Dunglas** — Creator of API Platform and Mercure; Symfony core team member.
+- **colshrapnel** — Creator of the popular SafeMySQL library and, more importantly, the author of the widely respected website phpdelusions.net. The site is a critical resource for learning modern, secure database practices in PHP, often correcting years of outdated tutorials found elsewhere. This person's influence is primarily educational and through their widely-used library.
 
 #### - Async Trailblazers
 
@@ -85,19 +95,20 @@ These developers built major libraries, frameworks, standards, and tools that pu
 - **Cees-Jan Kiewiet ("WyriHaximus")** - ReactPHP core contributor and one of the most prolific async package authors on Packagist.
 - **Christian Lück ("clue")** - ReactPHP core architect.
 - **Kévin Dunglas** — Creator of FrankenPHP.
-- **Han Tianfeng** — Creator of Swoole.
 - **Anton Titov** — Creator of RoadRunner.
-- **Huang Wenzhui** — Creator of Hyperf, a high-performance coroutine framework built on Swoole.
   
 
 ### Tier 6 — Educators and Thinkers
 
 - **Matthias Noback** — Prolific author of essential books on software architecture like _Advanced Web Application Architecture_.
+- **Phil Sturgeon** — Co-author of _PHP: The Right Way_, founder of The League of Extraordinary Packages, a key member of the PHP-FIG, core contributor to CodeIgniter and FuelPHP, and founded the PyroCMS project.
 - **Paul M. Jones** — Architect of Solar and Aura; co-author of PSRs (4 and 7); influential blogger and educator; creator/advocate of the Action-Domain-Responder pattern.
 - **Cal Evans** — Longtime community builder, podcaster ("Voices of the ElePHPant"), and speaker. Helped shape the early online PHP community and inspired countless user groups.
 - **Tom Butler** — Creator of Dice DI container and Transphporm templating engine; university lecturer and author of deep, often contrarian, technical blog posts.
 - **Chris Hartjes** — "Grumpy Programmer"; long-time advocate for testing and best practices.
 - **Eli White** — Organizer, speaker, and early thought leader in PHP community events with php[architect].
+- **Dan Ackroyd ("danack")** — An active and respected voice within the PHP internals community, known for reviewing RFCs and contributing to the technical discussions that shape the language's evolution.
+- **Peter Cowburn ("salathe")** — A key figure in the PHP documentation team. As a primary author and maintainer of the PHP manual, his work is fundamental to how millions of developers learn and use the language. 
 
 ### Tier 7 — Honorable Mentions (Niche, Local, or Unsung Heroes)
 
@@ -114,3 +125,12 @@ People whose impact was significant but narrower in scope, regional, or more com
 
 add: gina banyard (girgias), Christoph M. Becker (cmb), Joe Watkins (krakjoe), Dan Ackroyd (danack) 
 Peter Cowburn (salathe), Chris Wright is another, daverandom, r11 room owners https://chat.stackoverflow.com/rooms/info/11/, Nicolas Grekas
+
+---
+
+### Interview Questions
+
+1. What would you consider to be your most impactful contributions to the PHP community?
+2. Who would you consider most influential in your programming journey?
+3. Are there any books or blogs that have helped you grow measurably as a programmer?
+4. Are there any tools, libraries, apps, platforms, etc. that have had a large, positive impact on the ecosystem in your vie
