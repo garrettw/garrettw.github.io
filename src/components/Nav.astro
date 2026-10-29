@@ -14,10 +14,10 @@ const textLinks: { label: string; href: string }[] = [
 /** Icon links to social media — edit these with links to your profiles! */
 const iconLinks: { label: string; href: string; icon: keyof typeof iconPaths }[] = [
 	{ label: 'GitHub', href: 'https://github.com/garrettw', icon: 'github-logo' },
-	{ label: 'Reddit', href: 'https://reddit.com/u/garrett_w87', icon: 'reddit-logo' },
+	{ label: '/dev/null', href: 'https://dev-null.sh/@garrettw', icon: 'devnull-logo' },
 	{ label: 'LinkedIn', href: 'https://www.linkedin.com/in/garrettw', icon: 'linkedin-logo-outline' },
 	{ label: 'Bluesky', href: 'https://bsky.app/profile/garrettw.net', icon: 'butterfly' },
-	{ label: 'Twitter', href: 'https://twitter.com/garrettw', icon: 'twitter-logo' },
+	{ label: 'Twitter', href: 'https://twitter.com/garrett_w', icon: 'twitter-logo' },
 	{ label: 'Mastodon', href: 'https://mastodon.social/@garrettw', icon: 'mastodon-logo' },
 	{ label: 'Pixelfed', href: 'https://pixelfed.social/garrettw', icon: 'instagram-logo' },
 	{ label: 'My real website', href: 'https://garrettw.net/', icon: 'house-line' },
@@ -127,7 +127,7 @@ const isCurrentPage = (href: string) => {
 			};
 
 			// Toggle menu visibility when the menu button is clicked.
-			btn.addEventListener('click', () => setExpanded(menu.hidden));
+			btn.addEventListener('click', () => setExpanded(!!menu.hidden));
 
 			// Hide menu button for large screens.
 			const handleViewports = (e: MediaQueryList | MediaQueryListEvent) => {
