@@ -1,0 +1,31 @@
+---
+import type { CollectionEntry } from 'astro:content';
+import BlogListing from '../../../components/BlogListing.astro';
+import { getPublishedBlogPosts } from '../../../utils/blog';
+
+type Props = {
+    category: string;
+    allPosts: CollectionEntry<'blog'>[];
+    posts: CollectionEntry<'blog'>[];
+};
+
+export async function getStaticPaths() {
+    const allPosts = await getPublishedBlogPosts();
+    const categories = new Set(allPosts.flatMap((post: { data: { categories: any; }; }) => post.data.categories ?? []));
+
+    return [...categories].map((category) => ({
+        params: { category },
+        props: {
+            category,
+            allPosts,
+            posts: allPosts
+                .filter((post: { data: { categories: unknown[]; }; }) => post.data.categories?.includes(category))
+                .sort((a: { data: { pubDate: { valueOf: () => any; }; }; }, b: { data: { pubDate: { valueOf: () => any; }; }; }) => (b.data.pubDate?.valueOf() ?? 0) - (a.data.pubDate?.valueOf() ?? 0)),
+        },
+    }));
+}
+
+const { category, allPosts, posts } = Astro.props as Props;
+---
+
+<BlogListing posts={posts} allPosts={allPosts} category={category} />
